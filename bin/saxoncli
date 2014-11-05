@@ -1,7 +1,7 @@
 #!/bin/sh
 
 REAL_PATH=$(realpath $0)
-SAXON_JAR=`dirname $REAL_PATH`/Saxon-HE-9.4.0.7.jar
+SAXON_JAR=`dirname $REAL_PATH`/../lib/Saxon-HE-9.4.0.7.jar
 
 # run the saxon command
 # command-line options can be found here: http://saxonica.com/documentation9.4-demo/html/using-xsl/commandline.html
